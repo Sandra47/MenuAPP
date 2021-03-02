@@ -1,0 +1,225 @@
+.order {
+  height: 100vh;
+}
+
+.order .title {
+  position: absolute;
+  top: 35px;
+  left: 30%;
+  right: 15%;
+  margin: auto;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order .title h1 {
+  font-size: 24px;
+  color: var(--color-red);
+}
+
+.order .title i {
+  transform: scale(2);
+  color: var(--color-white);
+  margin-right: -30%;
+}
+
+/*-----------------Alert Message----------------*/
+.order .message-container {
+  height: 30%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.order .message {
+  width: 90%;
+  margin: 0 auto;
+  padding: 5px;
+  box-shadow: 1px 1px 1px 1px var(--color-red);
+  border-radius: 12px;
+  background-color: var(--color-gray);
+
+}
+
+.order .message h1 {
+  color: var(--color-red);
+  padding: 5px;
+}
+
+.order .message p {
+  text-align: justify;
+  padding: 5px;
+  color:  var(--color-white)
+}
+
+/*-------------Articles shopping Cart-------------*/
+.order .articles {
+  height: 40%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order .articles .article-container {
+  margin: auto;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.order .articles article {
+  min-height: 80px;
+  width: 70%;
+  margin: auto;
+  transform: translateX(20px);
+  background-color: var(--color-white);
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.order .articles article .contents {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 5px 40px 5px 40px;
+}
+
+.order .articles article .contents h4{
+  color: var(--color-red);
+}
+
+.order .articles article .contents p:nth-of-type(1) {
+  font-size: 14px;
+  color: var(--color-black);
+}
+
+.order .articles article .contents p:nth-of-type(2) {
+  font-weight: bold;
+  color: var(--color-red);
+
+}
+
+.order .articles article .contents p:last-child {
+  position: absolute;
+  right: 0%;
+  height: 100%;
+  width: 35px;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   color: var(--color-black);
+}
+
+.order .articles article figure {
+  position: absolute;
+  left: -40px;
+  top: 0%;
+  bottom: 0%;
+  margin: auto;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+
+.order .articles article .button {
+  position: absolute;
+  cursor: pointer;
+}
+
+.order .articles article .circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: var(--color-red);
+  color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.order .articles article .button-left {
+  right: 5px;
+  bottom: 2px;
+}
+
+.menu .list-of-items article .button-left:hover  {
+
+  background-color: var(--color-orange);
+  }
+.order .articles article .button-right {
+  right: 5px;
+  top: 2px;
+}
+
+.menu .list-of-items article .button-right:hover  {
+
+  background-color: var(--color-orange);
+  }
+/*-------------------Resume-------------------*/
+.order .resume {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.order .resume div a {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: var(--color-red);
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.order .resume div:first-child a {
+  width: 60%;
+  background-color: var(--color-white);
+}
+
+.order .resume div a p {
+  text-align: center;
+  padding: 10px;
+}
+
+.order .resume > div:nth-of-type(2) .row {
+  width: 70%;
+  margin: auto;
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+  color:var(--color-white)
+}
+
+.order .resume > div:nth-of-type(2) .row:last-child {
+  font-weight: bold;
+}
+
+.order .resume div:last-child a {
+  width: 70%;
+  background-color: var(--color-red);
+  font-size: 20px;
+  color:var(--color-white)
+}
+
+
+.order .resume div:last-child a:hover  {
+
+  background-color: var(--color-orange);
+}
+
+.order .resume div:last-child a i {
+  transform: scale(1.5);
+}

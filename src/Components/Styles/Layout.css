@@ -1,0 +1,14 @@
+.layout {
+  min-height: 100vh;
+}
+
+.layout .logo {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  
+}
+
+.layout .logo img {
+  width: 50px;
+}

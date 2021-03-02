@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Gorditas&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 62.5%; */
+  font-family: 'Gorditas', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  
+  --color-shadow: #c1bdb4;
+  --color-very-light-shade-of-orange-red: black;
+  --color-white: #ffffff;
+  --color-red: red;
+  --color-orange: rgb(255, 123, 0);
+  --color-black:black;
+  --color-gray:rgb(27, 26, 26);
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--color-black);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

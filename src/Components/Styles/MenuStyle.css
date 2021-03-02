@@ -1,0 +1,319 @@
+.menu {
+  height: 100vh;
+}
+/*--------------Filter--------------*/
+.menu .form {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  width: 220px;
+  /* box-shadow: 1px 1px 1px 1px var(--color-white); */
+  border-radius: 12px;
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 1px 1px var(--color-red);
+}
+
+/* 
+.label {
+  border: green;
+  height: 100px;
+} */
+
+.menu .form input {
+  width: 85%;
+  border: none;
+  padding: 10px;
+  height: 30px;
+  font-size: 20px;
+  background-color: var(--color-white);
+  color: var(--color-red);
+  border-radius: 12px;
+  
+}
+
+.menu .form input:focus {
+  outline: none;
+}
+
+.menu .form i {
+  color: var(--color-red);
+  transform: scale(1.2);
+}
+
+/*----------General Articles-----------*/
+.menu .container-general-articles {
+  height: 25%;
+  padding-top: 80px;
+
+}
+
+.menu .general-articles {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+ 
+  margin-top: 25px;
+}
+
+.menu .general-articles .arrow {
+  display: flex;
+  color: var(--color-dark-shade-of-cyan);
+  cursor: pointer;
+}
+
+.menu .general-articles .arrow:hover {
+  color: var(--color-ocher-gold);
+}
+
+.menu .general-articles i {
+  margin: auto;
+  transform: scale(2);
+}
+
+.menu .general-articles .articles {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.menu .general-articles .articles figure {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-white);
+  cursor: pointer;
+  opacity: 1;
+  background-color:var(--color-red);
+  box-shadow: 1px 1px 1px 1px var(--color-white);
+  width: 30%;
+  height: 80%;
+  border-radius: 12px;
+  
+
+}
+.menu .general-articles .articles figure:hover {
+  background-color:var(--color-orange);
+ 
+}
+@keyframes change {
+  from {
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(360deg);
+  }
+}
+
+.menu .general-articles .articles figure.visible {
+  display: flex;
+  animation-name: change;
+  animation-duration: 1s;
+}
+
+.menu .general-articles .articles figure:hover {
+  color: var(--color-ocher-gold);
+}
+
+.menu .general-articles .articles figure div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  margin-top: -20px;
+}
+
+/*-------------List of items--------------*/
+.menu .list-of-items {
+  height: 65%;
+  padding-top: 50px;
+  overflow-y: scroll;
+  margin-left: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu .list-of-items article {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 16px 4px var(--color-red);
+  text-align: center;
+  border-radius: 12px;
+  margin-top: 50px;
+}
+
+.menu .list-of-items article:first-child {
+  margin-top: 0%;
+}
+
+.menu .list-of-items article  .contents figure {
+  
+  position: absolute;
+  left: -30px;
+  top: 0%;
+  bottom: 0%;
+  margin: auto;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.menu .list-of-items article .contents {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 5px 40px 5px 40px;
+
+  border: solid transparent;
+}
+.menu .list-of-items article .contents h4{
+  color: var(--color-red);
+}
+.menu .list-of-items article .contents p:nth-of-type(1) {
+  color: var(--color-black);
+  font-size: 12px;
+  margin-left: 3%;
+}
+
+.menu .list-of-items article .contents p:nth-of-type(2) {
+  font-weight: bold;
+  color: var(--color-red);
+}
+
+.menu .list-of-items article .contents p:last-child {
+  position: absolute;
+  right: -3px;
+  top: 2%;
+  height: 100%;
+  width: 35px;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Buttons less & more*/
+.menu .list-of-items   article .button {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-red);
+  cursor: pointer;
+  
+}
+
+.menu .list-of-items article .button-left {
+  right: 5px;
+  bottom: 0%;
+  border-radius: 50px;
+  top: 68%;
+}
+
+.menu .list-of-items article .button-left:hover  {
+
+background-color: var(--color-orange);
+}
+
+.menu .list-of-items article .button-right {
+  bottom: 0%;
+  right: 5px;
+  top: 4%;
+  border-radius: 50px;
+}
+.menu .list-of-items article  .button-right:hover  {
+
+  background-color: var(--color-orange);
+  }
+
+.menu .list-of-items article .circle {
+  border: solid var(--color-red);
+  height: 25px;
+  width: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;  border-radius: 50%;
+  color: var(--color-white);
+}
+
+
+/*-----------To shopping cart------------*/
+.menu > div:last-child {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu .to-shopping-cart {
+  height: 45px;
+  width: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color:var(--color-red);
+  border-radius: 24px;
+  color: var(--color-black);
+  margin-left:45%;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  text-decoration: none;
+  box-shadow: 1px 1px 1px 1px var(--color-white);
+}
+
+.menu .to-shopping-cart:active {
+  transform: scale(0.99);
+}
+
+.menu .to-shopping-cart i {
+  transform: scale(1.5);
+}
+
+.menu .to-shopping-cart p {
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-white);
+  border-radius: 50%;
+  font-size: 24px;
+}
+/*Footer*/
+
+footer .networks {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 16px 4px var(--color-red);
+  text-align: center;
+  border-radius: 12px;
+  margin-top: 50px;
+  padding: 20px;
+  overflow-x:hidden ;
+  margin-left: 10%;
+
+}
+footer .networks p {
+
+  color: var(--color-black);
+  font-size: 12px;
+
+}
