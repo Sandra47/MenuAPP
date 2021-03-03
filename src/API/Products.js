@@ -4,6 +4,7 @@ import pizzaImg2 from "../API/Images/pizzasjamonyqueso.png";
 import pizzaImg5 from "../API/Images/polloyvegetales.png";
 import pizzaImg6 from "../API/Images/pizzanapolitana.png";
 import patacon from "../API/Images/patacon.jpeg";
+import patacon2 from "../API/Images/pataconrelleno.jpg";
 import dog from "../API/Images/perros1.png";
 import dog2 from "../API/Images/choriperro.png";
 import picadas3 from "../API/Images/patacon.jpeg";
@@ -24,7 +25,7 @@ const PRODUCTS = {
       name: "Patacon",
       category: "patacon",
       styles: {
-        backgroundImage: `url('${patacon}')`
+        backgroundImage: `url('${patacon2}')`
       }
     },
     {
@@ -48,7 +49,7 @@ const PRODUCTS = {
   pizzas: [
     {
       id: "pizza1",
-      name: "Pizzas Tamaño XL",
+      name: "Pizza Tamaño XL",
       description: "Pizza con jamón y queso",
       cost: 30000,
       styles: {
@@ -110,7 +111,7 @@ const PRODUCTS = {
       description: "Pollo, Chorizo, Butifarra, Salchicha",
       cost: 15000,
       styles: {
-        backgroundImage: `url('${patacon}')`
+        backgroundImage: `url('${patacon2}')`
       }
     },
     {
@@ -186,7 +187,16 @@ const PRODUCTS = {
       id: "dog2",
       name: "PERRO",
       description: "Choriperro",
-      cost: 6000,
+      cost: 9000,
+      styles: {
+        backgroundImage: `url('${dog2}')`
+      }
+    },
+    {
+      id: "dog3",
+      name: "PERRO",
+      description: "Zuiso",
+      cost: 9000,
       styles: {
         backgroundImage: `url('${dog2}')`
       }

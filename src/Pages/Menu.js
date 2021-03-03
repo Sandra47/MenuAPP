@@ -54,7 +54,7 @@ function Menu() {
     setList(PRODUCTS.pizzas
       .concat(PRODUCTS.patacon)
       .concat(PRODUCTS.picadas)
-      .concat(PRODUCTS.combos)
+      .concat(PRODUCTS.dog)
     );
   
     setSearch(e.target.value);
