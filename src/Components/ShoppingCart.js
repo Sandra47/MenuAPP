@@ -8,7 +8,7 @@ function ShoppingCart(props) {
   const idProducts = PRODUCTS.pizzas
     .concat(PRODUCTS.patacon)
     .concat(PRODUCTS.picadas)
-    .concat(PRODUCTS.combos)
+    .concat(PRODUCTS.dog)
     .map(e => e = e.id)
   ;
 

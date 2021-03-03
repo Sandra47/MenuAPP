@@ -1,10 +1,13 @@
 import pizzaImg4 from "../API/Images/pizzachorizo.png";
 import pizzaImg3 from "../API/Images/pizza-hawaiana.jpg";
-import pizzaImg2 from "../API/Images/pizzajamonyqueso.jpeg";
-import hamburgerImage from "../API/Images/Hamburger-pexels.jpg";
-// import  from "../API/Images/beer-pexels.jpg";
+import pizzaImg2 from "../API/Images/pizzasjamonyqueso.png";
+import pizzaImg5 from "../API/Images/polloyvegetales.png";
+import pizzaImg6 from "../API/Images/pizzanapolitana.png";
+import patacon from "../API/Images/patacon.jpeg";
+import dog from "../API/Images/perros1.png";
+import dog2 from "../API/Images/choriperro.png";
 import picadas3 from "../API/Images/patacon.jpeg";
-import comboImage from "../API/Images/combo-pexels.jpg";
+
 
 const PRODUCTS = {
   general: [
@@ -13,7 +16,7 @@ const PRODUCTS = {
       name: "Pizza",
       category: "pizzas",
       styles: {
-        backgroundImage: `url('${pizzaImg3}')`
+        backgroundImage: `url('${pizzaImg4}')`
       }
     },
     {
@@ -21,7 +24,7 @@ const PRODUCTS = {
       name: "Patacon",
       category: "patacon",
       styles: {
-        backgroundImage: `url('${hamburgerImage}')`
+        backgroundImage: `url('${patacon}')`
       }
     },
     {
@@ -34,10 +37,10 @@ const PRODUCTS = {
     },
     {
       id: "gen4",
-      name: "Combos",
-      category: "combos",
+      name: "Perros",
+      category: "dog",
       styles: {
-        backgroundImage: `url('${comboImage}')`
+        backgroundImage: `url('${dog}')`
       }
     }
   ],
@@ -45,8 +48,8 @@ const PRODUCTS = {
   pizzas: [
     {
       id: "pizza1",
-      name: "Pizzas",
-      description: "Pizza con jamon y queso",
+      name: "Pizzas Tamaño XL",
+      description: "Pizza con jamón y queso",
       cost: 30000,
       styles: {
         backgroundImage: `url('${pizzaImg2}')`
@@ -54,8 +57,8 @@ const PRODUCTS = {
     },
     {
       id: "pizza2",
-      name: "Pizza Hawallana",
-      description: "Pizza con jamon, queso y piña",
+      name: "Pizza Hawallana Tamaño Xl",
+      description: "Pizza con jamón, queso y piña",
       cost: 30000,
       styles: {
         backgroundImage: `url('${pizzaImg3}')`
@@ -63,24 +66,60 @@ const PRODUCTS = {
     },
     {
       id: "pizza3",
-      name: "Pizza Chorizo",
-      description: "Pizza con jamon, queso y Chprizo ",
+      name: "Pizza Chorizo Tamño Xl",
+      description: "Pizza con jamón, queso y Chorizo ",
       cost: 30000,
       styles: {
         backgroundImage: `url('${pizzaImg4}')`
       }
-    }
+    },
+    {
+      id: "pizza4",
+      name: "Pizza Pollo y Vegetales Tamño Xl",
+      description: "Pizza de pollo con verduras",
+      cost: 31000,
+      styles: {
+        backgroundImage: `url('${pizzaImg5}')`
+      }
+    },
+    {
+      id: "pizza5",
+      name: "Pizza Napolitana Tamño Xl",
+      description: "Pizza queso mozzarella, rodajas de tomates, hojas de albahaca",
+      cost: 31000,
+      styles: {
+        backgroundImage: `url('${pizzaImg6}')`
+      }
+    },
 
   ],
 
   patacon: [
     {
-      id: "ham1",
-      name: "Patacon Relleno",
-      description: "Hamburguesa sencilla",
-      cost: 5000,
+      id: "pat1",
+      name: "CAMERINO SENCILLA",
+      description: "(Salchicha, Pollo, Chorizo, Butifarra)",
+      cost: 10000,
       styles: {
-        backgroundImage: `url('${ picadas3}')`
+        backgroundImage: `url('${patacon}')`
+      }
+    },
+    {
+      id: "pat2",
+      name: "CALIDO",
+      description: "Pollo, Chorizo, Butifarra, Salchicha",
+      cost: 15000,
+      styles: {
+        backgroundImage: `url('${patacon}')`
+      }
+    },
+    {
+      id: "pat3",
+      name: "RANCHERO",
+      description: "(Pollo, Chorizo, Salchicha Ranchera, Butifara)",
+      cost: 17000,
+      styles: {
+        backgroundImage: `url('${patacon}')`
       }
     }
   ],
@@ -88,34 +127,70 @@ const PRODUCTS = {
   picadas: [
     {
       id: "picadas1",
-      name: "Picadas Camerino sencillo",
+      name: "CAMERINO SENCILLA",
       description: "(Salchicha, pollo, chorizo, butifarra)",
-      cost: 1000,
+      cost: 10000,
+      styles: {
+        backgroundImage: `url('${picadas3}')`
+      }
+    },
+    {
+      id: "picadas2",
+      name: "LA 10",
+      description: "(Pollo, Chorizo, Butifarra, Salchichas)",
+      cost: 15000,
+      styles: {
+        backgroundImage: `url('${picadas3}')`
+      }
+    },
+    {
+      id: "picadas3",
+      name: "GOLEADORA",
+      description: "( Pollo, Cerdo, Salchicha, chorizo, butifarra)",
+      cost: 20000,
       styles: {
         backgroundImage: `url('${ picadas3}')`
       }
     },
     {
-      id: "picadas2",
-      name: "Poker",
-      description: "cerveza 350ml",
-      cost: 2200,
+      id: "picadas4",
+      name: "BOMBONERA",
+      description: "Familiar",
+      cost: 30000,
       styles: {
         backgroundImage: `url('${picadas3}')`
       }
-    }
+    },
+    {
+      id: "picadas5",
+      name: "LA MUNDIAL",
+      description: "XL",
+      cost: 40000,
+      styles: {
+        backgroundImage: `url('${picadas3}')`
+      }
+    },
   ],
 
-  combos: [
+  dog: [
     {
-      id: "comb1",
-      name: "Hamburguesa + gaseosa",
-      description: "Hamburguesa sencilla + gaseosa 350ml",
-      cost: 6500,
+      id: "dog1",
+      name: "PERRO",
+      description: "Perro super",
+      cost: 6000,
       styles: {
-        backgroundImage: `url('${comboImage}')`
+        backgroundImage: `url('${dog}')`
       }
-    }
+    },
+    {
+      id: "dog2",
+      name: "PERRO",
+      description: "Choriperro",
+      cost: 6000,
+      styles: {
+        backgroundImage: `url('${dog2}')`
+      }
+    },
   ]
 }
 
