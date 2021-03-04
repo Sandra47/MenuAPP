@@ -51,43 +51,43 @@ const PRODUCTS = {
       id: "pizza1",
       name: "Pizza Tamaño XL",
       description: "Pizza con jamón y queso",
-      cost: 30000,
+      cost: 30.000,
       styles: {
         backgroundImage: `url('${pizzaImg2}')`
       }
     },
     {
       id: "pizza2",
-      name: "Pizza Hawallana Tamaño Xl",
+      name: "Pizza Hawallana Tamaño XL",
       description: "Pizza con jamón, queso y piña",
-      cost: 30000,
+      cost: 30.000,
       styles: {
         backgroundImage: `url('${pizzaImg3}')`
       }
     },
     {
       id: "pizza3",
-      name: "Pizza Chorizo Tamño Xl",
+      name: "Pizza Chorizo Tamño XL",
       description: "Pizza con jamón, queso y Chorizo ",
-      cost: 30000,
+      cost: 30.000,
       styles: {
         backgroundImage: `url('${pizzaImg4}')`
       }
     },
     {
       id: "pizza4",
-      name: "Pizza Pollo y Vegetales Tamño Xl",
+      name: "Pizza Pollo y Vegetales Tamño XL",
       description: "Pizza de pollo con verduras",
-      cost: 31000,
+      cost: 31.000,
       styles: {
         backgroundImage: `url('${pizzaImg5}')`
       }
     },
     {
       id: "pizza5",
-      name: "Pizza Napolitana Tamño Xl",
+      name: "Pizza Napolitana Tamño XL",
       description: "Pizza queso mozzarella, rodajas de tomates, hojas de albahaca",
-      cost: 31000,
+      cost: 31.000,
       styles: {
         backgroundImage: `url('${pizzaImg6}')`
       }
@@ -100,7 +100,7 @@ const PRODUCTS = {
       id: "pat1",
       name: "CAMERINO SENCILLA",
       description: "(Salchicha, Pollo, Chorizo, Butifarra)",
-      cost: 10000,
+      cost: 10.000,
       styles: {
         backgroundImage: `url('${patacon}')`
       }
@@ -109,7 +109,7 @@ const PRODUCTS = {
       id: "pat2",
       name: "CALIDO",
       description: "Pollo, Chorizo, Butifarra, Salchicha",
-      cost: 15000,
+      cost: 15.000,
       styles: {
         backgroundImage: `url('${patacon2}')`
       }
@@ -118,7 +118,7 @@ const PRODUCTS = {
       id: "pat3",
       name: "RANCHERO",
       description: "(Pollo, Chorizo, Salchicha Ranchera, Butifara)",
-      cost: 17000,
+      cost: 17.000,
       styles: {
         backgroundImage: `url('${patacon}')`
       }
@@ -130,7 +130,7 @@ const PRODUCTS = {
       id: "picadas1",
       name: "CAMERINO SENCILLA",
       description: "(Salchicha, pollo, chorizo, butifarra)",
-      cost: 10000,
+      cost: 10.000,
       styles: {
         backgroundImage: `url('${picadas3}')`
       }
@@ -139,7 +139,7 @@ const PRODUCTS = {
       id: "picadas2",
       name: "LA 10",
       description: "(Pollo, Chorizo, Butifarra, Salchichas)",
-      cost: 15000,
+      cost: 15.000,
       styles: {
         backgroundImage: `url('${picadas3}')`
       }
@@ -148,7 +148,7 @@ const PRODUCTS = {
       id: "picadas3",
       name: "GOLEADORA",
       description: "( Pollo, Cerdo, Salchicha, chorizo, butifarra)",
-      cost: 20000,
+      cost: 20.000,
       styles: {
         backgroundImage: `url('${ picadas3}')`
       }
@@ -157,7 +157,7 @@ const PRODUCTS = {
       id: "picadas4",
       name: "BOMBONERA",
       description: "Familiar",
-      cost: 30000,
+      cost: 30.000,
       styles: {
         backgroundImage: `url('${picadas3}')`
       }
@@ -166,7 +166,7 @@ const PRODUCTS = {
       id: "picadas5",
       name: "LA MUNDIAL",
       description: "XL",
-      cost: 40000,
+      cost: 40.000,
       styles: {
         backgroundImage: `url('${picadas3}')`
       }
@@ -178,7 +178,7 @@ const PRODUCTS = {
       id: "dog1",
       name: "PERRO",
       description: "Perro super",
-      cost: 6000,
+      cost: 6.000,
       styles: {
         backgroundImage: `url('${dog}')`
       }
@@ -187,7 +187,7 @@ const PRODUCTS = {
       id: "dog2",
       name: "PERRO",
       description: "Choriperro",
-      cost: 9000,
+      cost: 9.000,
       styles: {
         backgroundImage: `url('${dog2}')`
       }
@@ -196,7 +196,7 @@ const PRODUCTS = {
       id: "dog3",
       name: "PERRO",
       description: "Zuiso",
-      cost: 9000,
+      cost: 9.000,
       styles: {
         backgroundImage: `url('${dog2}')`
       }

@@ -27,7 +27,7 @@ function OrderStyle(props) {
                 <div className="contents">
                   <h4>{item.name}</h4>
                   <p>{item.description}</p>
-                  <p>$ {item.cost}</p>
+                  <p>$ {item.cost.toFixed(3)}</p>
                   <p>{props.cartValues[idx]}</p>
                 </div>
                 <div className="button button-left" onClick={props.decrease} data-product={item.id}>
@@ -52,7 +52,7 @@ function OrderStyle(props) {
         <div>
           <div className="row">
             <p>Total</p>
-            <p>$ {props.total}</p>
+            <p>$ {props.total.toFixed(3)}</p>
           </div>
         </div>
 

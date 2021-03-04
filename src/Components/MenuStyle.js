@@ -39,7 +39,7 @@ function MenuStyle(props) {
                <figure style={e.styles}></figure>
                 <h4>{e.name}</h4>
                 <p>{e.description}</p>
-                <p>$ {e.cost}</p>
+                <p>$ {e.cost.toFixed(3)}</p>
                 <p>{props.amount[e.id]}</p>
               </div>
               <div className="button button-left" onClick={props.decrease} data-product={e.id}>
@@ -62,8 +62,8 @@ function MenuStyle(props) {
       <footer>
 
         <div className="networks">
-         <p>Visítanos: Campestres calle principal </p>
-         <p>Telefonos: 3023871154- 3202806999 </p>
+         <p>Visítanos: Los Caracoles Mz 8Lt 6 Etapa 2 </p>
+         <p>Telefonos: 3106724076 </p>
        </div>  
 
         {/* <div className="networks">

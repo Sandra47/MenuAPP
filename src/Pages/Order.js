@@ -33,13 +33,14 @@ function Order() {
     total += item.cost * values[idx];
   });
 
-  const PHONE = 573207501413;
+  const PHONE = 573106724076;
   const request = [];
 
   shoppingList.forEach((item, idx) => {
-    request.push(`Producto ${idx+1}
-      ${item.name}: ${values[idx]}
-      descripcion: ${item.description}//
+    request.push(`
+      ${item.name}: (${values[idx]})
+      descripción: ${item.description}//
+      
     `);
   });
 
@@ -47,6 +48,7 @@ function Order() {
   
   ${request.join(`
   `)}
+  Total: ${total.toFixed(3)}
   `;
 
   return (
