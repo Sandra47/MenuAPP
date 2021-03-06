@@ -67,7 +67,7 @@ const PRODUCTS = {
     },
     {
       id: "pizza3",
-      name: "Pizza Chorizo Tamño XL",
+      name: "Pizza Chorizo Tamaño XL",
       description: "Pizza con jamón, queso y Chorizo ",
       cost: 30.000,
       styles: {
@@ -76,7 +76,7 @@ const PRODUCTS = {
     },
     {
       id: "pizza4",
-      name: "Pizza Pollo y Vegetales Tamño XL",
+      name: "Pizza Pollo y Vegetales Tamaño XL",
       description: "Pizza de pollo con verduras",
       cost: 31.000,
       styles: {
@@ -85,7 +85,7 @@ const PRODUCTS = {
     },
     {
       id: "pizza5",
-      name: "Pizza Napolitana Tamño XL",
+      name: "Pizza Napolitana Tamaño XL",
       description: "Pizza queso mozzarella, rodajas de tomates, hojas de albahaca",
       cost: 31.000,
       styles: {
